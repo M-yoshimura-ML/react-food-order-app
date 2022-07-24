@@ -1,0 +1,28 @@
+{
+"foods":{
+    "-N7UyXfD9AC65EI7y_01":{
+      "id": "m1",
+      "name": "Sushi",
+      "description": "Finest fish and veggies",
+      "price": 22.99,
+    },
+    "-N7UyXfD9AC65EI7y_02":{
+      "id": "m2",
+      "name": "Schnitzel",
+      "description": "A german specialty!",
+      "price": 16.5,
+    },
+    "-N7UyXfD9AC65EI7y_03":{
+      "id": "m3",
+      "name": "Barbecue Burger",
+      "description": "American, raw, meaty",
+      "price": 12.99,
+    },
+    "-N7UyXfD9AC65EI7y_04":{
+      "id": "m4",
+      "name": "Green Bowl",
+      "description": "Healthy...and green...",
+      "price": 18.99,
+    }
+}
+}
