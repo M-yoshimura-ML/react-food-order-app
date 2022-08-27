@@ -14,7 +14,8 @@ const AvailableMeals = () => {
     setError(null); 
 
     try {
-      const response = await fetch('https://react-http-76bce-default-rtdb.firebaseio.com/foods.json')
+      const url = process.env.REACT_APP_FIREBASE_REALTIME_DB
+      const response = await fetch( url + 'foods.json')
       
       if(!response.ok) {
         throw new Error('something went wrong!');
