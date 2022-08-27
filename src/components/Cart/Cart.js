@@ -30,8 +30,9 @@ const Cart = (props) => {
 
     const submitOrderHandler = async (userData) => {
         // event.preventDefault();
+        const url = process.env.REACT_APP_FIREBASE_REALTIME_DB
         setIsSubmitting(true);
-        await fetch('https://react-http-76bce-default-rtdb.firebaseio.com/orders.json', {
+        await fetch(url + 'orders.json', {
             method: 'POST',
             body:JSON.stringify({
                 user: userData,
